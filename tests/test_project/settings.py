@@ -1,4 +1,4 @@
-SECRET_KEY = 'wY2j(CXnx3l(%/vDwjjOS^2d@SaV>[X0>^pr75,Z\JApXnP%Lb'
+SECRET_KEY = 'wY2j(CXnx3l(%/vDwjjOS^2d@SaV>[X0>^pr75,ZaJApXnP%Lb'
 
 DATABASES = {
     'default': {
