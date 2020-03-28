@@ -4,7 +4,7 @@ from argparse import ArgumentParser
 from django.core.management import BaseCommand
 
 from django_runscript.decorators import daemon, parallel
-from django_runscript.utilities import import_script_lookup
+from django_runscript.utilities import import_script
 
 
 class Command(BaseCommand):
@@ -19,7 +19,7 @@ class Command(BaseCommand):
         if script_path is None:
             raise ValueError('Script path required.')
 
-        run_script = import_script_lookup(script_path)
+        run_script = import_script(script_path)
 
         if options['logger'] is not None:
             options['logger'] = logging.getLogger(options['logger'])

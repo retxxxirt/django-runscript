@@ -9,5 +9,6 @@ DATABASES = {
 
 INSTALLED_APPS = [
     'django_runscript',
-    'test_app'
+    'test_app_a',
+    'tests.test_app_b'
 ]

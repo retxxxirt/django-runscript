@@ -4,7 +4,7 @@ setup(
     name='django-runscript',
     packages=['django_runscript'],
     package_data={'django_runscript': ['management/commands/*.py']},
-    version='0.1.0',
+    version='0.1.1',
     license='MIT',
     description='Django command for running custom scripts with django environment.',
     author='retxxxirt',
